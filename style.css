@@ -1,0 +1,332 @@
+.title {
+  display: inline-block;
+  margin: 20px 180px;
+  font-size: 27px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+#description {
+  display: inline-block;
+  margin: 10px 150px;
+}
+
+.name {
+  display: block;
+  margin: 10px 85px;
+  font-family: "Sriracha", cursive;
+}
+.address {
+  display: block;
+  margin: 10px 85px;
+  font-family: "Sriracha", cursive;
+}
+.email {
+  display: block;
+  margin: 10px 85px;
+  font-family: "Sriracha", cursive;
+}
+.phone {
+  display: block;
+  margin: 10px 85px;
+  font-family: "Sriracha", cursive;
+}
+.iq {
+  display: block;
+  margin: 10px 85px;
+  font-family: "Sriracha", cursive;
+}
+.persona {
+  color: black;
+  font-size: large;
+  font-family: "Sriracha", cursive;
+}
+.border {
+  margin: 10px 48px;
+  width: 850px;
+}
+.radio {
+  display: block;
+  position: relative;
+  margin: 2px 100px;
+}
+.gender {
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 10px 85px;
+  font-size: 18px;
+}
+.date {
+  display: inline-block;
+  font-family: "Baloo Bhai 2", cursive;
+  margin: 15px 85px;
+  font-size: 18px;
+}
+.boorder {
+  border: 1px solid lightgrey;
+  margin: 10px 48px;
+  width: 87%;
+}
+.h3 {
+  margin: 10px 50px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.info {
+  display: block;
+  margin: 5px 85px;
+  font-family: "Sriracha", cursive;
+}
+
+.div {
+  margin: 5px 0px;
+}
+.opt {
+  margin: 10px 15px;
+  font-family: "Sriracha", cursive;
+  display: inline-block;
+}
+.textar {
+  margin: 10px 60px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+.butt {
+  background-color: red;
+  color: white;
+  font-family: "Baloo Bhai 2", cursive;
+  font-size: 18px;
+  width: 200px;
+  margin: 10px 370px;
+}
+body {
+  background-color: lightgoldenrodyellow;
+}
+.main {
+  margin: 10px 200px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 35px;
+  width: 70%;
+}
+.field {
+  border: 1px solid lightgray;
+  width: 92%;
+}
+
+@media screen and (max-width: 1080px) {
+  body {
+    overflow-x: hidden;
+  }
+  .main {
+    width: 74%;
+    margin: 0% 14%;
+  }
+  .title {
+    margin: 20px 152px;
+    width: 54%;
+    text-align: center;
+  }
+  .field {
+    width: 77%;
+  }
+  .butt {
+    margin: 10px 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    overflow-x: hidden;
+  }
+  .main {
+    width: 84%;
+    margin: 0% 14%;
+  }
+  .title {
+    margin: 20px 152px;
+    width: 65%;
+    text-align: center;
+  }
+  .field {
+    width: 62%;
+  }
+  .butt {
+    margin: 10px 270px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden;
+  }
+  .main {
+    width: 97%;
+    margin: 0% 14%;
+  }
+  .title {
+    margin: 20px 152px;
+    width: 68%;
+    text-align: center;
+  }
+  .field {
+    width: 66%;
+  }
+  .butt {
+    margin: 10px 270px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body {
+    overflow-x: hidden;
+    font-size: 22px;
+  }
+  .main {
+    width: 110%;
+    margin: 0% 14%;
+  }
+}
+@media screen and (max-width: 550px) {
+  body {
+    overflow-x: hidden;
+    font-size: 30px;
+  }
+  .main {
+    width: 160%;
+    margin: 0% 14%;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+    font-size: 30px;
+  }
+  .main {
+    width: 220%;
+    margin: 0% 19%;
+  }
+  .title {
+    font-size: 42px;
+  }
+  .butt {
+    font-size: 30px;
+    width: 43%;
+    margin: 14px 231px;
+  }
+}
+@media screen and (max-width: 350px) {
+  body {
+    overflow-x: hidden;
+    font-size: 50px;
+  }
+  .main {
+    width: 240%;
+    margin: 0% 14%;
+  }
+  .persona {
+    font-size: 34px;
+  }
+  #description{
+    font-size: 39px;
+}
+  .title {
+    font-size: 42px;
+  }
+  .jkl {
+    width: 120%;
+    font-size: 30px;
+  }
+  .inputop {
+    font-size: 29px;
+    width: 54%;
+  }
+  .iq {
+    font-size: 40px;
+  }
+  .date {
+    font-size: 33px;
+  }
+  .gender {
+    font-size: 37px;
+  }
+  .radio {
+    font-size: 36px;
+  }
+  .div {
+    font-size: 39px;
+  }
+  .h3 {
+    font-size: 43px;
+  }
+  .selectop {
+    font-size: 30px;
+  }
+  .textar {
+      font-size: 30px;
+    width: 81%;
+    text-align: center;
+  }
+  .valueop{
+      font-size: 12px;
+  }
+  .butt {
+    font-size: 30px;
+    width: 43%;
+    margin: 14px 231px;
+  }
+}
+@media screen and (max-width: 310px) {
+  body {
+    overflow-x: hidden;
+    font-size: 60px;
+  }
+  #description{
+      font-size: 43px;
+  }
+  .main {
+    width: 300%;
+    margin: 0% 14%;
+  }
+  .persona {
+    font-size: 34px;
+  }
+  .title {
+    font-size: 42px;
+  }
+  .jkl {
+    width: 120%;
+    font-size: 30px;
+  }
+  .inputop {
+    font-size: 29px;
+    width: 54%;
+  }
+  .iq {
+    font-size: 40px;
+  }
+  .date {
+    font-size: 33px;
+  }
+  .gender {
+    font-size: 37px;
+  }
+  .radio {
+    font-size: 36px;
+  }
+  .butt {
+    font-size: 30px;
+    width: 43%;
+    margin: 14px 231px;
+  }
+  .div {
+    font-size: 39px;
+  }
+  .h3 {
+    font-size: 43px;
+  }
+  .selectop {
+    font-size: 30px;
+  }
+  .textar {
+      font-size: 30px;
+    width: 81%;
+    text-align: center;
+  }
+  .valueop{
+      font-size: 12px;
+  }
+}
